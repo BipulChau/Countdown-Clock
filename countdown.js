@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 //
 // Collect the time from argv
 //
