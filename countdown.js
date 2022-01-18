@@ -13,7 +13,18 @@ if (!parseInt(time)) {
   throw new Error("--time must be a number");
 }
 
-console.log(time);
+const count = parseInt(time);
+let message = "";
+
+for (let i = 0; i < count; i++) {
+  message += "*";
+}
+
+log(message);
+
+setTimeout(() => {
+  log("overwrites line");
+}, 2000);
 
 //
 // Print starts in-line
