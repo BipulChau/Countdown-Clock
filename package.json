@@ -12,5 +12,8 @@
     "timer"
   ],
   "author": "Bipul Chaudhary",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }
