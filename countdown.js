@@ -3,6 +3,7 @@
 //
 const parseArgs = require("minimist");
 const { time } = parseArgs(process.argv);
+const { stdout: log } = require("single-line-log");
 
 if (!time) {
   throw new Error("--time is required");
